@@ -1,0 +1,15 @@
+.{
+    .name = .zig_gpu_copy,
+    .version = "0.0.0",
+    .fingerprint = 0xbbf54f967cd3218f,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "gpu",
+        "app",
+        "kernels",
+        "ml",
+    },
+}
